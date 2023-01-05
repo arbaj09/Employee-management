@@ -1,0 +1,44 @@
+.card{
+    display: block;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 25px;
+
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 140px;
+    border-radius: 23px;
+    
+    
+
+}
+  input{
+    width: 374px;
+    margin-bottom: 13px;
+    margin-left: 16px;
+}
+.sall{
+    margin-right: 10px;
+
+}
+#Name{
+    margin-left: 20px;
+}
+#email{
+    margin-left: 20px;
+}
+#designation{
+    margin-left: 20px;
+}
+button{
+    border-radius: 8px;
+    color: white;
+    background: rgb(41, 30, 141);
+    align-items: end;
+    /* align-self: flex-end; */
+    align-content: left;
+    text-align: flex-end;
+    margin-left: 400px;
+    margin-top: 10px;
+    padding: 5px;
+}

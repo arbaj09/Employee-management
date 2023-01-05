@@ -1,0 +1,28 @@
+<h1>Employee Management</h1>
+<div class="card">
+    <form action="" class="form_control" (ngSubmit)="onSubmit()">
+        <div class="form_grp">
+        <label for="name" class="form_grp"> Name</label>
+        <input type="text" name="Name" id="Name" [(ngModel)]="Name">
+    </div>
+    <div class="form_grp">
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" [(ngModel)]="Email">
+    </div>
+    <div class="form_grp">
+        <label for="Sallary">Sallary</label>
+        <input type="number" name="Sallary" id="Sallary" class="sall" [(ngModel)]="Sallary">
+    </div>
+    <div class="form_grp">
+        <label for="designation">Desig</label>
+        <input type="text" name="designation" id="designation" [(ngModel)]="Designation">
+    </div>
+  
+    <div class="btm">
+        <button type="submit">Add Employee</button>
+    </div>
+
+
+
+    </form>
+     </div>

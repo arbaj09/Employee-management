@@ -1,0 +1,35 @@
+.list_employee{
+    /* margin-left: 250px;
+    margin-right: 277px; */
+    background-color: rgb(146, 95, 95);
+    text-align: left;
+    border-radius: 17px;
+    color: white;
+    padding-left: 40px;
+    margin-left: 30%;
+    margin-right: 40%;
+    width: 40%;
+    padding: auto;
+    display: block;
+    
+}
+button{
+    background-color: rgb(41, 30, 141);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+ 
+}
+/* .Name_list{
+    margin-right: 190px;
+}
+.Sallary_list{
+    margin-right: 230px;
+}
+.desig_list{
+    margin-right: 190px;
+}
+.EMAIL{
+    margin-left: 16px;
+} */

@@ -1,0 +1,7 @@
+<app-addemployee (employeeAdd)="AddEmployee($event)"></app-addemployee>
+<div class="norecored" *ngIf="this.employee.length===0; else elseBlock"> no record found....</div>
+<ng-template #elseBlock>
+<div *ngFor="let Employee  of employee ">
+    <app-employee-item [employee]="Employee" (employeeDelete)="deleteEmployee($event)" ></app-employee-item> 
+</div>
+</ng-template>
