@@ -14,8 +14,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs/employee-management",
-            "index": "employee-management/index.html",
-            "main": "emloyee-management/main.ts",
+            "index": "index.html",
+            "main": "main.ts",
             "polyfills": [
               "zone.js"
             ],
